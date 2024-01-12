@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            background-color: #f9f4f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        #proposal-container {
+            margin: 50px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #ff0066;
+            font-size: 24px;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+        }
+
+        #accept-btn, #decline-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        #accept-btn {
+            background-color: #4caf50;
+            color: #fff;
+        }
+
+        #decline-btn {
+            background-color: #f44336;
+            color: #fff;
+        }
+
+        #accept-btn:hover, #decline-btn:hover {
+            background-color: #333;
+        }
+
+        .heart {
+            color: #ff0066;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="proposal-container">
+        <h1>Do you Miss me? and Love me? 🥰</h1>
+        <p>Mr.Anubhob Dey?</p>
+        <p>just letting you know, i love you a lot and life has been so much fun after i got you. So what im saying is you must love me!!</p>
+        <button id="accept-btn" onclick="acceptProposal()">YES! I LOVE YOU❤️ <span class="heart">&#10084;</span></button>
+        <button id="decline-btn" onclick="alert('thats not an option Mr.Dey! 🙅🏻‍♀️')">NO🙅🏻‍♀️</button>
+    </div>
+
+    <script>
+        function acceptProposal() {
+            alert('Good boy! ❤️💋 🎉');
+            // You can add more code here, like redirecting to another page or showing a special message.
+        }
+    </script>
+</body>
+</html>
